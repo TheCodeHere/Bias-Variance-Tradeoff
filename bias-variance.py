@@ -15,6 +15,7 @@ def f_hat(x, w):
     return np.sum(w * np.power(x, np.expand_dims(np.arange(d, -1, -1), 1)).T, 1)
 
 if __name__ == '__main__':
+    #Total number of samples
     N = 1000
 
     # Pair Samples (x,y)
